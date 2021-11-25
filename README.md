@@ -1,2 +1,2 @@
 # apstorymq
-Lightweight Topic-based Restful Messaging API
+Lightweight Restful Publish Subscribe Messaging API
