@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Apstory.Apstorymq.Common\Apstory.Apstorymq.Common.csproj" />
+    <ProjectReference Include="..\..\Dal\Apstory.Apstorymq.Dal.Interface\Apstory.Apstorymq.Dal.Interface.csproj" />
+    <ProjectReference Include="..\Apstory.Apstorymq.Domain.Interface\Apstory.Apstorymq.Domain.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

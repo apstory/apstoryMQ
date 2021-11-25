@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>ApstoryMQModel</PackageId>
+    <Authors>Apstory (PTY) Ltd</Authors>
+    <Product>Apstory (PTY) Ltd</Product>
+    <Description>.NETStandard model referenced by ApstoryMQ to publish and subscribe to messages on ApstoryMQ. Please contact apstoryza@gmail.com to request API documentation and a key.</Description>
+  </PropertyGroup>
+
+</Project>
