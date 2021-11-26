@@ -1,7 +1,7 @@
 # apstorymq-client-dotnet
 .NET Standard 2.0 C# Client for Apstorymq
 
-# Apstorymq API Documentation
+# apstorymq API Documentation
 https://apstorymqapi.azurewebsites.net
 
 # Demo
