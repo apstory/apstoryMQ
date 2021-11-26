@@ -6,8 +6,8 @@
     <Authors>Apstory (PTY) Ltd</Authors>
     <Product>apstorymq</Product>
     <Description>.NETStandard Client to publish and subscribe to messages on Apstorymq. Please contact apstoryza@gmail.com to request a demo.</Description>    
-    <Version>2.0.0</Version>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <Version>2.0.1</Version>
+    <AssemblyVersion>2.0.0.1</AssemblyVersion>
     <AssemblyName>Apstory.Apstorymq.Client.NetStandard</AssemblyName>
     <RootNamespace>Apstory.Apstorymq.Client.NetStandard</RootNamespace>
     <UserSecretsId>17e1f2d4-eeca-47e7-bd07-1b41bb76c638</UserSecretsId>
