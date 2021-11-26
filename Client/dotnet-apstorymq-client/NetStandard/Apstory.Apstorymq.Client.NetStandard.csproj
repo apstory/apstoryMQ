@@ -11,7 +11,7 @@
     <AssemblyName>Apstory.Apstorymq.Client.NetStandard</AssemblyName>
     <RootNamespace>Apstory.Apstorymq.Client.NetStandard</RootNamespace>
     <UserSecretsId>17e1f2d4-eeca-47e7-bd07-1b41bb76c638</UserSecretsId>
-    <FileVersion>2.0.0.0</FileVersion>
+    <FileVersion>2.0.0.1</FileVersion>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
