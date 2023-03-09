@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <!-- Warning: Setting the following switch is *NOT* recommended in web apps. -->
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
     <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
@@ -9,6 +11,7 @@
     <ApplicationInsightsAnnotationResourceId>/subscriptions/06586011-57ae-4740-a62f-fce8be24ba13/resourcegroups/APSTORYMQ/providers/microsoft.insights/components/apstorymqapi</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ApStory.PubSub.Api' " />
   <ItemGroup>
     <Compile Remove="Log\**" />
     <Compile Remove="wwwroot\**" />

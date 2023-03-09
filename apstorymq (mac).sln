@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A16E9225-1C91-4794-A6D0-CE827EFE9403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{21832BFE-9C17-4004-A715-C8C93AD48F8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{43C6C64D-28AD-4046-BCB8-3D73481E7DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6A23E3F4-0994-4BDF-BD85-95A46BA62D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{7A54C533-C5C7-488B-ABD9-81E9A08A2FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{86BA86FF-1FCA-456F-BE97-D4177A9FC317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Api", "Api\Apstory.Apstorymq.Api\Apstory.Apstorymq.Api.csproj", "{9E6F3470-19DE-465D-B4F9-E0B82F462866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Common", "Common\Apstory.Apstorymq.Common\Apstory.Apstorymq.Common.csproj", "{50A88653-DCA2-46F5-BB8A-D8FE49D97286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Dal.Interface", "Dal\Apstory.Apstorymq.Dal.Interface\Apstory.Apstorymq.Dal.Interface.csproj", "{B03BD033-41C4-4BCC-9553-808A0B94C0DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Dal", "Dal\Apstory.Apstorymq.Dal\Apstory.Apstorymq.Dal.csproj", "{DE9745D6-A7E2-41D9-AE5B-378992853475}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Apstory.Apstorymq.DB", "DB\Apstory.Apstorymq.DB\Apstory.Apstorymq.DB.sqlproj", "{7892062C-18E3-4533-AC2C-2B364CBDE56C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Domain", "Domain\Apstory.Apstorymq.Domain\Apstory.Apstorymq.Domain.csproj", "{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Domain.Extentions", "Domain\Apstory.Apstorymq.Domain.Extentions\Apstory.Apstorymq.Domain.Extentions.csproj", "{1EE762E1-C784-4147-A0CF-21E313A9D29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Domain.Interface", "Domain\Apstory.Apstorymq.Domain.Interface\Apstory.Apstorymq.Domain.Interface.csproj", "{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apstory.Apstorymq.Model", "Model\Apstory.Apstorymq.Model\Apstory.Apstorymq.Model.csproj", "{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E6F3470-19DE-465D-B4F9-E0B82F462866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6F3470-19DE-465D-B4F9-E0B82F462866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6F3470-19DE-465D-B4F9-E0B82F462866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6F3470-19DE-465D-B4F9-E0B82F462866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A88653-DCA2-46F5-BB8A-D8FE49D97286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A88653-DCA2-46F5-BB8A-D8FE49D97286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A88653-DCA2-46F5-BB8A-D8FE49D97286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A88653-DCA2-46F5-BB8A-D8FE49D97286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03BD033-41C4-4BCC-9553-808A0B94C0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03BD033-41C4-4BCC-9553-808A0B94C0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03BD033-41C4-4BCC-9553-808A0B94C0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03BD033-41C4-4BCC-9553-808A0B94C0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9745D6-A7E2-41D9-AE5B-378992853475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9745D6-A7E2-41D9-AE5B-378992853475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9745D6-A7E2-41D9-AE5B-378992853475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9745D6-A7E2-41D9-AE5B-378992853475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE762E1-C784-4147-A0CF-21E313A9D29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE762E1-C784-4147-A0CF-21E313A9D29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE762E1-C784-4147-A0CF-21E313A9D29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE762E1-C784-4147-A0CF-21E313A9D29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E6F3470-19DE-465D-B4F9-E0B82F462866} = {A16E9225-1C91-4794-A6D0-CE827EFE9403}
+		{50A88653-DCA2-46F5-BB8A-D8FE49D97286} = {21832BFE-9C17-4004-A715-C8C93AD48F8A}
+		{B03BD033-41C4-4BCC-9553-808A0B94C0DA} = {7A54C533-C5C7-488B-ABD9-81E9A08A2FE4}
+		{DE9745D6-A7E2-41D9-AE5B-378992853475} = {7A54C533-C5C7-488B-ABD9-81E9A08A2FE4}
+		{7892062C-18E3-4533-AC2C-2B364CBDE56C} = {43C6C64D-28AD-4046-BCB8-3D73481E7DC6}
+		{7A26EC12-2ADC-4E1A-B4B6-3AB2DCD5DFBE} = {6A23E3F4-0994-4BDF-BD85-95A46BA62D8C}
+		{1EE762E1-C784-4147-A0CF-21E313A9D29B} = {6A23E3F4-0994-4BDF-BD85-95A46BA62D8C}
+		{69BB7385-74A2-4DC0-91FA-C2A07B9E29CC} = {6A23E3F4-0994-4BDF-BD85-95A46BA62D8C}
+		{F28AFA9F-923B-4F4F-A8C0-7C3B2FC26E64} = {86BA86FF-1FCA-456F-BE97-D4177A9FC317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2802EF61-969F-40B1-BF18-B0D1CBBB3AB4}
+	EndGlobalSection
+EndGlobal
